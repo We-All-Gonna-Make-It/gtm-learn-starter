@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title> -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="product-group">
+      <div class="product-card">
+        <h3>Ürün 1</h3>
+
+        <img src="images/product1.webp" />
+
+        <p>Sıcak ve rahat, şık tasarımlı kapşonlu satılık ürün.</p>
+
+        <div>
+          <span>79.99 TL</span>
+          <button>Sepete ekle</button>
+        </div>
+      </div>
+      <div class="product-card-container">
+        <div class="product-card">
+          <h3>Ürün 2</h3>
+
+          <img src="images/product2.webp" />
+          <p>
+            Şık tasarımı ve dayanıklılığıyla göz kamaştıran, satılık ayakkabı.
+          </p>
+          <div>
+            <span>89.99 TL</span>
+            <button>Sepete ekle</button>
+          </div>
+        </div>
+        <div class="product-card-input">
+          <p>size:</p>
+          <select class="select">
+            <option value="37">37</option>
+            <option value="39">39</option>
+            <option value="41">41</option>
+          </select>
+        </div>
+      </div>
+      <div class="product-card-container">
+        <div class="product-card">
+          <h3>Ürün 3</h3>
+          <img src="images/product3.webp" />
+          <p>
+            Lezzetli, doldurucu ve doyurucu ızgara köftesi ile hazırlanmış
+            hamburger.
+          </p>
+          <div>
+            <span>99.99 TL</span>
+            <button>Sepete ekle</button>
+          </div>
+        </div>
+        <div style="bottom: -5.6rem" class="product-card-input">
+          <p>ek malzeme:</p>
+          <div>
+            <div>
+              <input
+                type="radio"
+                value="istemiyorum"
+                id="istemiyorum"
+                name="malzeme"
+                checked
+              />
+              <label for="istemiyorum">istemiyorum</label>
+            </div>
+            <div>
+              <input type="radio" value="domates" id="domates" name="malzeme" />
+              <label for="domates">domates</label>
+            </div>
+            <div>
+              <input type="radio" value="lahana" id="lahana" name="malzeme" />
+              <label for="lahana">lahana</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
